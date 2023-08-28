@@ -6,4 +6,20 @@
 
 body {
     background: #121214;
+    font-family: 'Sora', sans-serif;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.hero p {
+    color: #B5B2B2;
+}
+
+.hero h1 {
+    color: #F6F6F6;
 }
