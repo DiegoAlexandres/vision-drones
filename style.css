@@ -9,17 +9,50 @@ body {
     font-family: 'Sora', sans-serif;
 }
 
+
+.page {
+    width: 1440px;
+    height: 800px;
+}
+
 .bg {
     width: 100%;
     position: absolute;
     z-index: -1;
+    top: 0;
 }
 
+.hero {
+    width: 860px;
+    height: 490px;
+    margin-top: 180px;
+    margin-left: 240px;    
+}
 
-.hero p {
+.text-01 {
     color: #B5B2B2;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
 }
+
+.text-02 {
+    color: #F6F6F6;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
 
 .hero h1 {
     color: #F6F6F6;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+strong {
+    background: linear-gradient(137deg, #196DEB 0%, #00C2FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
